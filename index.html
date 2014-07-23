@@ -13,68 +13,99 @@
 <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 <![endif]-->
 <style>
-
-/*  div#wrapper{
-    width:900px;
-    margin:auto;
+  body{
+    
   }
-  */
+  div#wrapper{
+    width:1024px;
+    margin:auto;
+    background-color: #f8f8ff;
+  }
+  section.daily{
+    line-height: 115%;
+    letter-spacing: 0.2em;
+    margin-bottom: 2px;
+    background-color:whitesmoke;
+  }
   footer {
-    /*text-align:center;*/
+    text-align:center;
   }
 </style>
 </head>
 <body>
   <div id = "wrapper">
-    <header><h1>CIW Site Development</h1></header>
+    <header id="header"><h1>CIW Site Development</h1></header>
     <div class="container">
       <div class="row">
-        <aside class ="col-sm-4">
+        <aside class ="col-sm-3">
           <header><h2>Student List</h2></header>
           <section class ="system">
             <header>
-              <h3 style="font-size:large">System Course</h3>
+              <h3>System Course</h3>
             </header>
             <ul>
-              <li><a href="http://s14001.github.io/habitat">s14001(伊佐真之介)</a></li>
-              <li><a href="http://s14002.github.io/habitat">s14002(大見謝春樹)</a></li>
-              <li><a href="http://s14003.github.io/habitat">s14003(萱島志野)</a></li>
-              <li><a href="http://s14004.github.io/habitat">s14004(金城和志)</a></li>
-              <li><a href="http://s14005.github.io/habitat">s14005(古賀裕貴)</a></li>
-              <li><a href="http://s14006.github.io/habitat">s14006(島袋清乃)</a></li>
-              <li><a href="http://s14007.github.io/habitat">s14007(高良裕太)</a></li>
-              <li><a href="http://s14008.github.io/habitat">s14008(宮良直稔)</a></li>
-              <li><a href="http://s14009.github.io/habitat">s14009(森山拓馬)</a></li>
-              <li><a href="http://s14010.github.io/habitat">s14010(諸見里磨人)</a></li>
-              <li><a href="http://s14011.github.io/habitat">s14011(山内亮和)</a></li>
+              <li><a href="http://s14001.github.io/habitat">
+              s14001(伊佐真之介)</a></li>
+              <li><a href="http://s14002.github.io/habitat">
+              s14002(大見謝春樹)</a></li>
+              <li><a href="http://s14003.github.io/habitat">
+              s14003(萱島志野)</a></li>
+              <li><a href="http://s14004.github.io/habitat">
+              s14004(金城和志)</a></li>
+              <li><a href="http://s14005.github.io/habitat">
+              s14005(古賀裕貴)</a></li>
+              <li><a href="http://s14006.github.io/habitat">
+              s14006(島袋清乃)</a></li>
+              <li><a href="http://s14007.github.io/habitat">
+              s14007(高良裕太)</a></li>
+              <li><a href="http://s14008.github.io/habitat">
+              s14008(宮良直稔)</a></li>
+              <li><a href="http://s14009.github.io/habitat">
+              s14009(森山拓馬)</a></li>
+              <li><a href="http://s14010.github.io/habitat">
+              s14010(諸見里磨人)</a></li>
+              <li><a href="http://s14011.github.io/habitat">
+              s14011(山内亮和)</a></li>
             </ul>
           </section>
 
           <section class ="network">
-            <header><h3 style="font-size:large">Network Security Course</h3></header>
+            <header><h3>Network Security</h3></header>
             <ul>
-              <li><a href="http://n14001.github.io/habitat">n14001(安里和樹)</a></li>
-              <li><a href="http://n14002.github.io/habitat">n14002(神里直希)</a></li>
-              <li><a href="http://n14003.github.io/habitat">n14003(喜屋武大地)</a></li>
-              <li><a href="http://n14004.github.io/habitat">n14004(金城奈美)</a></li>
-              <li><a href="http://n14005.github.io/habitat">n14005(下地泰平)</a></li>
-              <li><a href="http://n14006.github.io/habitat">n14006(高良勝平)</a></li>
-              <li><a href="http://n14007.github.io/habitat">n14007(田中竜一郎)</a></li>
-              <li><a href="http://n14008.github.io/habitat">n14008(照屋諒)</a></li>
-              <li><a href="http://n14009.github.io/habitat">n14009(渡久地駿)</a></li>
-              <li><a href="http://n14011.github.io/habitat">n14011(花城貴文)</a></li>
-              <li><a href="http://n14012.github.io/habitat">n14012(前田隼希)</a></li>
-              <li><a href="http://n14013.github.io/habitat">n14013(前原信成)</a></li>
+              <li><a href="http://n14001.github.io/habitat">
+              n14001(安里和樹)</a></li>
+              <li><a href="http://n14002.github.io/habitat">
+              n14002(神里直希)</a></li>
+              <li><a href="http://n14003.github.io/habitat">
+              n14003(喜屋武大地)</a></li>
+              <li><a href="http://n14004.github.io/habitat">
+              n14004(金城奈美)</a></li>
+              <li><a href="http://n14005.github.io/habitat">
+              n14005(下地泰平)</a></li>
+              <li><a href="http://n14006.github.io/habitat">
+              n14006(高良勝平)</a></li>
+              <li><a href="http://n14007.github.io/habitat">
+              n14007(田中竜一郎)</a></li>
+              <li><a href="http://n14008.github.io/habitat">
+              n14008(照屋諒)</a></li>
+              <li><a href="http://n14009.github.io/habitat">
+              n14009(渡久地駿)</a></li>
+              <li><a href="http://n14011.github.io/habitat">
+              n14011(花城貴文)</a></li>
+              <li><a href="http://n14012.github.io/habitat">
+              n14012(前田隼希)</a></li>
+              <li><a href="http://n14013.github.io/habitat">
+              n14013(前原信成)</a></li>
             </ul>
           </section>
-
         </aside>
-        <article class ="col-sm-8">
+
+        <article class ="col-sm-9">
           <header>
             <h2>Update</h2>
           </header>
 
-          <section class ="">
+          <section class ="daily">
             <header>
               <h3>2014-07-22(Lesson01ミニテスト，演習5準備)</h3>
             </header>
@@ -91,7 +122,7 @@
           </section>
 
 
-          <section class ="">
+          <section class ="daily">
             <header>
               <h3>2014-07-22(演習4.1 - 4.8)</h3>
             </header>
@@ -103,7 +134,7 @@
             </dl>         
           </section>
 
-          <section class ="">
+          <section class ="daily">
             <header>
               <h3>2014-07-17(演習3.5,3.6,3.7,3.8)</h3>
             </header>
@@ -116,7 +147,7 @@
           </section>
           
 
-          <section>
+          <section class="daily">
             <header>
               <h3>2014-07-16(演習3.2，3.3，3.4)</h3>
             </header>
@@ -128,7 +159,7 @@
             </dl>         
           </section>
 
-          <section>
+          <section class="daily">
             <header>
               <h3>2014-07-15(GitHubPageの設定，Gitの使い方，演習3.1)</h3>
             </header>
@@ -143,7 +174,9 @@
       </div>
     </div>
 
-    <footer><small>&copy; IT College Okinawa</small></footer>
+    <footer>
+      <small>&copy; IT College Okinawa</small>
+    </footer>
   </div>
 
 
