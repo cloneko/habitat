@@ -1,0 +1,19 @@
+@charset "utf-8";
+body             {
+			font-family: Osaka, 'ＭＳ Ｐゴシック', sans-serif; color: #0099FF; font-size: 10pt; background: #CCCCCC;
+
+		         }
+
+.h1             {
+			font-family: Osaka, 'ＭＳ Ｐゴシック', sans-serif; color: black; font-size: 24pt;
+
+		         }
+.h2             {
+			font-family: Osaka, 'ＭＳ Ｐゴシック', sans-serif; color: black; font-size: 18pt;
+
+		         }
+
+.h3             {
+			font-family: Osaka, 'ＭＳ Ｐゴシック', sans-serif; color: black; font-size: 13pt;
+
+		         }
