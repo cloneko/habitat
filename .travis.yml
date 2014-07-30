@@ -7,4 +7,8 @@ install:
 script:
     - LANG=C python _test/validator.py
 
+notifications:
+    emails:
+        - cloneko@gmail.com
+    on_failure: always
 sudo: false
