@@ -1,9 +1,11 @@
-import pytest
+import nose
 import json
+import sys
 from py_w3c.validators.html.validator import HTMLValidator
 
 validator = HTMLValidator()
-validator.validate_file('../index.html')
+validator.validate_file('../index.html') 
+
 
 def test_has_no_error():
 	assert len(validator.errors) == 0
