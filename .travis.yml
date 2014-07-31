@@ -5,7 +5,7 @@ python:
 
 install:
     - "pip install nose"
-    - "pip install https://bitbucket.org/nmb10/py_w3c/downloads/py_w3c-v0.1.1.tar.gz'
+    - "pip install https://bitbucket.org/nmb10/py_w3c/downloads/py_w3c-v0.1.1.tar.gz"
 
 script:
     - nosetests
